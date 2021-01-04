@@ -25,28 +25,20 @@ nav {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
 }
-/* .card {
-  margin: 1rem;
-}
-.card-image {
-  position: relative;
-  width: 300px;
-  min-height: 447px;
-  z-index: 1;
-}
-.card-action {
-  display: flex;
-  justify-content: space-between;
+.input-field input {
+width: calc(100% - 110px);
+display: inline-block;
 }
 
-.img-overlay {
+.search-btn{
   position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
   right: 0;
-  bottom: 0;
-  background-color: black;
-  opacity: 0.4;
-} */
+  top: 50%;
+  transform: translateY(-50%);
+}
+.checkbox{
+  margin-bottom: 20px;
+}
+.checkbox label {
+ margin-right: 40px;
+}
