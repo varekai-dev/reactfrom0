@@ -14,7 +14,7 @@ nav {
 }
 
 .content {
-  min-height: calc(100vh - 70px - 64px);
+  min-height: calc(100vh - 70px - 56px);
   padding: 1.5rem;
   /* display: flex;
   flex-wrap: wrap;
@@ -26,7 +26,7 @@ nav {
   gap: 1rem;
 }
 .input-field input {
-  width: calc(100% - 110px);
+  width: calc(100% - 120px);
   display: inline-block;
 }
 
