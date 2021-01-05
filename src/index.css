@@ -26,19 +26,27 @@ nav {
   gap: 1rem;
 }
 .input-field input {
-width: calc(100% - 110px);
-display: inline-block;
+  width: calc(100% - 110px);
+  display: inline-block;
 }
 
-.search-btn{
+.search-btn {
   position: absolute;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
 }
-.checkbox{
+.checkbox {
   margin-bottom: 20px;
 }
 .checkbox label {
- margin-right: 40px;
+  margin-right: 40px;
+}
+.card {
+  padding-bottom: 100px;
+}
+.card-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
